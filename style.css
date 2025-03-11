@@ -111,7 +111,7 @@ span {
 
 footer {
     color: white;
-    background: #333333;
+    background: #131313;
     text-align: center;
     padding: 10px;
 }
@@ -168,4 +168,45 @@ img {
 
 h2 {
     color: orange;
+}
+
+#form {
+    background-image: url('images/image4.jpg');
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    width: 400px;
+    height: 450px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px rgba(255, 166, 0, 0.605);
+}
+
+#form-heading {
+    color: orange;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    width: 250px;
+    margin: 15px 0;
+    height: 40px;
+}
+
+#text {
+    width: 250px;
+    height: 100px;
+}
+
+#form-button {
+    width: 150px;
+    height: 40px;
+    margin: 10px 0;
 }
