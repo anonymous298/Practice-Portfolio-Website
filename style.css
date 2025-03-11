@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: white;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 1s;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+.logo {
+    color: orange;
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+input {
+    height: 33px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+}
+
+button {
+    height: 33px;
+    width: 70px;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+    border: none;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(111, 111, 111);
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+}
+
+#intro {
+    background-image: url('images/image1.jpg');
+}
+
+#about {
+    background-image: url('images/image2.jpg');
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30px;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 100px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+span {
+    color: orange;
+}
+
+#name {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    background: #333333;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    border: 5px solid white;
+}
+
+#about-me {
+    padding: 50px;
+    margin: 0 15px;
+}
+
+#about-me h1 {
+    color: orange;
+}
+
+#intro-search {
+    width: 350px;
+    height:40px;
+    margin-top: 35px;
+}
+
+#intro-button {
+    height: 40px;
+    width: 100px;
+    transition: 1s background 1s color;
+}
+
+#intro-button:hover {
+    background: rgb(245, 245, 245);
+    color: rgb(54, 54, 54);
+}
+
+#projects {
+    background-image: url('images/image3.jpg');
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project {
+    padding: 30px;
+}
+
+.img-project {
+    height: 350px;
+    width: 400px;
+    margin-top: 10px;
+    border: 5px solid gray;
+}
+
+h2 {
+    color: orange;
+}
