@@ -8,6 +8,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: white;
+    width: 100vw;
 }
 
 header {
@@ -81,6 +82,7 @@ button:hover {
     align-items: center;
     text-align: center;
     background-size: cover;
+    width: 100vw;
 }
 
 #intro {
